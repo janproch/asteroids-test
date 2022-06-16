@@ -1,0 +1,1 @@
+print(f'soucet:{1+2}')
