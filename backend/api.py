@@ -7,7 +7,7 @@ API_KEY = 'UqQ3wRjDZAsNhKJlddxz2Fo5yLkieo9rtCtROeao'
 app = Flask(__name__)
 
 
-@app.route("/find")
+@app.route("/api/find")
 def findAsteroids():
     try:
         args = request.args
